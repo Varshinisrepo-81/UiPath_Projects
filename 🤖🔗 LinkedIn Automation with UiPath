@@ -1,0 +1,200 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="project1" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="project1_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Persistence.Activities.Job</x:String>
+      <x:String>UiPath.Persistence.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Triggers</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Persistence.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR.StudioWeb.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="project1" sap:VirtualizedContainerService.HintSize="828.4000000000001,1565.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge New tab" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="483.2,1542.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="5a17650f-e676-4338-93c8-26821f4087c2" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,1298.4" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Default="https://www.linkedin.com/in/varshini-b-610318300/?originalSubdomain=in" Name="output" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" ClipboardMode="Never" DisplayName="Type Into 'httpswww.linkedin.co…(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_6" InteractionMode="HardwareEvents" ScopeIdentifier="5a17650f-e676-4338-93c8-26821f4087c2" Text="https://www.linkedin.com/in/varshini-b-610318300/[k(Enter)]" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="newtab" CVScreenId="3ff39228-7805-42aa-8736-b889f3945033" ContentHash="kCsjsq5agkGsLTU5eGFzAQ" CvElementArea="455, 206, 1000, 58" CvType="InputBox" DesignTimeRectangle="521, 208, 839, 56" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='New tab' role='document' /&gt;&lt;ctrl name='Enter your search term' role='editable text' /&gt;" Guid="42cb6df0-c0fc-4de4-ad45-b7ba0b882037" InformativeScreenshot="44a2765b6840033c3d823f522ad916c8.png" Reference="yRcuoVQVzkeSj-rWH7nrJg/2Tp9FicPH0GG6bCe7dkrsg" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='New tab - Personal 3 - Microsoft​ Edge' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="3ff39228-7805-42aa-8736-b889f3945033" CvElementArea="455, 206, 1000, 58" CvType="InputBox" DesignTimeRectangle="1413, 223, 26, 26" ElementType="Icon" FullSelectorArgument="&lt;ctrl name='New tab' role='document' /&gt;&lt;ctrl idx='2' name='Search' role='grouping' /&gt;&lt;ctrl name='Search' role='push button' /&gt;&lt;ctrl role='graphic' /&gt;" Guid="dc568fe8-dd2c-41d6-b96d-9a4bdfed2d32" SearchSteps="Selector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'email(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,193.6" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5a17650f-e676-4338-93c8-26821f4087c2" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="bing.com/search" CVScreenId="98b2b45a-d67b-4edd-9a59-130065cc8cb8" ContentHash="D6_oL2Dq1E2lEeqRnDyrmg" CvTextArea="237, 436, 669, 27" CvTextArgument="Varshini B - Student@K.S.Rangasamy College of Technology" CvType="Text" DesignTimeRectangle="239, 433, 666, 30" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Varshini B - Student@K.S.Rangasamy College of Technology' parentid='b_results' tag='A' /&gt;" Guid="0313525d-d06b-44b9-a2ed-146704d90a74" InformativeScreenshot="a26080da0cd4707f83b59cf83859883d.png" Reference="yRcuoVQVzkeSj-rWH7nrJg/24D78T-w4064WoPc3IOypQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='https://www.linkedin.com/in/varshini-b-610318300/ - Search' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="3fe2de19-be6e-4ccb-ac8b-51b8b9faf9f1" CvElementArea="237, 380, 37, 36" CvType="Icon" DesignTimeRectangle="240, 382, 33, 32" ElementType="Icon" FullSelectorArgument="&lt;webctrl parentid='b_results' tag='IMG' /&gt;" Guid="3c16d885-cf36-439a-a308-ecb79674f1cf" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACUAAAAkCAYAAAAOwvOmAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAANkSURBVFhHzZjfS5NRGMeFoJvwIruwbrruJqqbLqKgP6Auuu8uKOgurMAwJnUTWBQWEYR1VZRigrJ0QkmZuVbWwEQj3ebmHNLmnLnZ5tw3vgfOfN+957i5vZt+4YHt/Hiez3vOec9zzluHHai6woKdoC1Dra2tIZFIYGFhAaFQCD6fD9PT03njf5aznu3YfqsqGSqZTCISiYjAfr9fBI3H41heXhZ1NP6msTwajSIYDIr27Mf6UlUUKp1OC6cSRAKUaoRkP/anH/orpk2hOPx80suvvqKuqbdiox/6o9/NpIWKxWIY+DaJo3ffW5xXYsfuDQm/9K+TEoodOkd+oqGl3+LUDqNf+teBWaA4tHwSCXSifRhPPgfQMx7BxU4vGh0uS5ByjP4ZRzWVJiguQs65nLKTD4fx+8+KsQluDf7CgVZ7wDiVjFe4+E1QfDuausfyndqHfYinMsYmcM/GcerRJ0uAcu1azw8R16g8FF9fUjfc3FhHtYDiNHK7MO5jeSjScsMzQlV7+miMx7jG0RJQTAUcJdIaoWjVWujSGI8bLOPLlCSg+AaEw2ElVDlWf+MtDt15h8NtQ2h0DGDX1T5LG2mMx7hMSfJNFFBMAxxCFdTY3FJ+WKlzzz2i/JknmC+biSZx4bUXpx+P4M34PP7+20jC2fUcfNEVtPRPYp/igSUU45ODElDM6kyi5UKFllIYDcTgj+mTbjKdRac3jPpmpxKK8clBCSgeN2S2LweqVM0upsSIqqAYnxyUgJKL3A6oVCaL+cSqsNVM1lS3ks7i5fc5LRQ5KNug1nM59E5EcPzBR1G/+3ofzna4MR7ZSCM5AJ7gohKKZoKyY/pGA4s40/HF1Hd/qwsO15SpHf2poCzTV+lCp566Azh4e9DUd0+zE5e6vKZ2OijLQuerKE+V5ULd/zCDvQVHHU7h+RdjpnY6KMuWwE2Lm1clUK2uKVM/aWxvlA7Ksnlye5dJcbugLGmGUiXkWkEpEzJFWo7WdkBpjy4Uaa90mW8u1YbioVJ7yKN4LCW18QZTTSjGKXocpgovDtUy+nd6JopfHKRqccXqduvvfkooSl5Gj7TZexnllHGEdECUFori0HKN7Zhru5RdHzjk15fCRa1SUSgpBpBwTAnc8Db7FESQqn0KKlQtPpr9B+rNu4beJBXTAAAAAElFTkSuQmCC" SearchSteps="Selector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NGoToUrl DisplayName="Go To URL - linkedin.com" sap:VirtualizedContainerService.HintSize="416,118.4" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="https://www.linkedin.com/in/varshini-b-610318300/?originalSubdomain=in" Version="V5" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Create a post(3)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,193.6" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5a17650f-e676-4338-93c8-26821f4087c2" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="linkedin.com/in/varshini-b-610318300" CVScreenId="409934ff-f3f7-432c-9870-6ecee9c5fbe0" ContentHash="M2E018nygEy2vwgWC0-_Dw" CvElementArea="984, 422, 85, 24" CvTextArea="996, 430, 61, 11" CvTextArgument="Create a post" CvType="Button" DesignTimeRectangle="997, 428, 60, 13" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='navigation-create-post-Create-a-post' tag='SPAN' /&gt;" Guid="a86bf463-fda2-414d-a0f7-c414719b7fd5" InformativeScreenshot="6b778838a8ad488a6451f09b98d2eacb.png" Reference="yRcuoVQVzkeSj-rWH7nrJg/fM-3RkUFKUKmd2deSOZ3_w" ScopeSelectorArgument="&lt;html app='msedge.exe' title='(25) Varshini B | LinkedIn' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="409934ff-f3f7-432c-9870-6ecee9c5fbe0" CvElementArea="1076, 424, 21, 21" CvType="Icon" DesignTimeRectangle="1080, 427, 15, 15" ElementType="Icon" FullSelectorArgument="&lt;webctrl aria-role='none' parentid='navigation-add-edit-deeplink-edit-recent' tag='svg' /&gt;" Guid="421edd2d-0780-4be1-ba5b-7cc67250666b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACPSURBVDhP3dPdCYAgFEDhRnMMx3AMt3AMx3AMxzCOoPhT4bWeOnBJoj6S6kgfdown3vQjLMaYnHN5WLeJMG5WStUBbFvGRoix1nbXLGEFMsbktdY6j3ibLUQcgUII46XPmASiW0wK0SW2A9GE7UI0YbzuHYgmjKcCkELUYd77+kGCSSDqsPLP7TZt802fYieVXT0B+ANM0QAAAABJRU5ErkJggg==" SearchSteps="Selector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'What do you want to tal…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_9" ScopeIdentifier="5a17650f-e676-4338-93c8-26821f4087c2" Text="Hello connections,Exploring the power of Robotic Process Automation with UiPath to streamline business workflows.  Automating repetitive tasks to boost efficiency, accuracy, and scalability across operations.  Excited to dive deeper into intelligent automation and transform the way we work![k(Enter)]" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="linkedin.com/in/varshini-b-610318300/overlay/create-post" CVScreenId="652b4e5b-5aad-43c0-8189-c136ad74b452" ContentHash="JMfjKGair0afzZmqGZdwGw" CvTextArea="230, 296, 183, 13" CvTextArgument="What do you want to talk about?" CvType="Text" DesignTimeRectangle="216, 287, 465, 75" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='ember73' tag='DIV' /&gt;" Guid="10d8cbdf-ac7e-4aec-b018-0e6a22c49963" InformativeScreenshot="fcc51d854b17ccade67fd5fdbf99ba56.png" Reference="yRcuoVQVzkeSj-rWH7nrJg/bDg9S73zGU2bzJ68ivA-2g" ScopeSelectorArgument="&lt;html app='msedge.exe' title='(6) Varshini B | LinkedIn' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="652b4e5b-5aad-43c0-8189-c136ad74b452" CvTextArea="230, 296, 183, 13" CvTextArgument="What do you want to talk about?" CvType="Text" DesignTimeRectangle="216, 287, 465, 186" FuzzySelectorArgument="&lt;webctrl type='' parentid='ember73' tag='DIV' class='share-creation-state__content-scrollable&amp;#xA;        ' aaname='            ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='What do you want to talk about?' /&gt;" Guid="ed4fe2c0-6da8-4703-8972-bb6aa1f923fe" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Post(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218.4" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5a17650f-e676-4338-93c8-26821f4087c2" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="linkedin.com/in/varshini-b-610318300/overlay/create-post" CVScreenId="e1ceaa63-4f14-4e82-a257-7e4e374d0b71" ContentHash="EA1GWyI7WEmlXi88HQohoQ" CvElementArea="1144, 555, 44, 24" CvTextArea="1156, 564, 20, 8" CvTextArgument="Post" CvType="Button" DesignTimeRectangle="1157, 561, 20, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='ember442' tag='SPAN' type='' class='artdeco-button__text' aaname='                Post        ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Post' /&gt;" Guid="0c3e2fb1-3ac3-413b-bfa1-56d7314be81d" InformativeScreenshot="005813823eb364707cf9a8f94d58e30e.png" Reference="yRcuoVQVzkeSj-rWH7nrJg/PbttLXJ3cEawP8g_VCINTw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='(6) Varshini B | LinkedIn' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="e1ceaa63-4f14-4e82-a257-7e4e374d0b71" CvElementArea="1144, 555, 44, 24" CvTextArea="1156, 564, 20, 8" CvTextArgument="Post" CvType="Button" DesignTimeRectangle="1147, 557, 40, 20" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='ember442' tag='BUTTON' type='' class='share-actions__primary-action artdeco-button artdeco-button--2 artdeco-button--primary ember-view' aaname='                 Post        ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Post' /&gt;" Guid="ce268c39-7ead-4243-89d9-cbd863ffb4a1" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Edge" ContentHash="8XQT99VKWECAcfjcnHzLuQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAASdJREFUWEftl9sNwjAQBK8ESqAUOoEOoAMogY4ohRIoAbQoJ1m2JyHJ8gUjWYq89q3j+HGJ+NOyi4hbRDwi4mksirmvzWrOnY7uIo8uh6LRJSI2dYOBbDMHxToVfTXLDZoiiWo4xpIBJHox9ZVXQwamN0/WDECx1Vfrq+HTwLk4t7XwIeiDQkVO49rSgEKHq2GbNqBgBn1QMIM+KJhBHxTMoA8KZtAHBTPoQ4JuMG25e3Wbza1PyAcFBUqtPELn1ifkg0J54Cj40vqEfFDQNa1ACqznpfUJ+bBgBn1QMIM+KJhBHxTMoA8KZtAnt89USraGTMm6A8ikVBnPtzgOHt2kVKlyjk6ZsXMmFKv85+gd0W9c+d5YmZxhnV75OVxF60sxuz8kv80LzI8Nz/1reB8AAAAASUVORK5CYII=" InformativeScreenshot="ebf3bd4f8513320bf4be38153158a614.png" Reference="yRcuoVQVzkeSj-rWH7nrJg/eiNaoAf7hEycihLLT6jWvA" Selector="&lt;html app='msedge.exe' title='New tab' /&gt;" Url="edge://newtab/" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
